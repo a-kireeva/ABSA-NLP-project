@@ -15,6 +15,12 @@ This project covers the following steps:
 
 All jupyter notebooks are meant for Google Colab and might need some adjustments to be run locally.
 
-Results of this project show high accuracy score in terms of utilizing BERT for sentiment analysis: 0.92 on test data from Bing Liu et al. dataset and 0.88 on extracted aspects from step 1. Small decrease in accuracy might be explained by the fact that 1) aspects were extracted based on slightly different logic comparing to Bing Liu et al. dataset used for BERT fine-tuning; 2) not all extracted aspects were relevant to the product. The latter point is important to note: 32% of extracted aspects were not truly product features or were related to other products or customer experience (see details in **/output/Analysis of Apex AD2600 Progressive-scan DVD player.xlsx**). Therefore the algorithm of extracting product aspects needs substantial improvements.
+Results of this project show high accuracy score in terms of utilizing BERT for sentiment analysis: 
+- 0.92 on test data from Bing Liu et al. dataset 
+- and 0.88 on extracted aspects from step 1. 
+ 
+Small decrease in accuracy might be explained by the fact that 1) aspects were extracted based on slightly different logic comparing to Bing Liu et al. dataset used for BERT fine-tuning; 2) not all extracted aspects were relevant to the product.
+
+The latter point is important to note: 32% of extracted aspects were not truly product features or were related to other products or customer experience (see details in **/output/Analysis of Apex AD2600 Progressive-scan DVD player.xlsx**). Therefore the algorithm of extracting product aspects needs substantial improvements.
 
 More details about the results of this project can be found in **Kireeva_DS_final_attestation_presentation.pdf** (available in Russian).
